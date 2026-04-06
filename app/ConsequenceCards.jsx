@@ -86,12 +86,12 @@ const CARDS = [
     </> },
   { id: "total-cost", color: T.red,
     ogTitle: `$${totalB} billion and counting`,
-    ogDesc: `$${dailyB} billion a day. $${DATA.perMinute.toLocaleString('en-US')} a minute.`,
+    ogDesc: `$${dailyB} billion a day. $$1.25 million a minute.`,
     render: () => <>
       <div style={S.top}>Total cost · Day <Days /></div>
       <div style={{ ...S.big, color: T.red }}><Ticker /></div>
       <div style={S.line}>and counting.</div>
-      <div style={S.sub}>${dailyB} billion a day. ${DATA.perMinute.toLocaleString('en-US')} a minute.</div>
+      <div style={S.sub}>${dailyB} billion a day. $1.25 million a minute.</div>
     </> },
   { id: "your-share", color: "#f97316",
     ogTitle: `Your household has paid $${DATA.perHousehold} for this war`,
