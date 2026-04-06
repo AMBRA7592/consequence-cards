@@ -20,7 +20,7 @@ const DATA = {
   warStart: "2026-02-28T00:00:00Z",
   totalCost: 62_000_000_000,
   dailyRate: 1_800_000_000,
-  perMinute: 75_000,
+  perMinute: 1_250_000,
   perHousehold: 487,
   households: "127 million",
   gasBefore: 2.98,
