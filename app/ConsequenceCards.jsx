@@ -119,10 +119,10 @@ const CARDS = [
     ogTitle: `Every ${DATA.missileInterval} seconds, a $${DATA.missileCostM}M cruise missile is gone`,
     ogDesc: `${DATA.missilesLaunched} launched. The U.S. produces ${DATA.missileProduction} a year.`,
     render: () => <>
-      <div style={S.top}>Every {DATA.missileInterval} seconds</div>
-      <div style={{ ...S.big, color: T.red }}>1 cruise missile</div>
-      <div style={S.line}>${DATA.missileCostM} million. Gone.</div>
-      <div style={S.sub}>{DATA.missilesLaunched} launched so far. The U.S. produces {DATA.missileProduction} a year.</div>
+      <div style={S.top}>Since Feb 28</div>
+      <div style={{ ...S.big, color: T.red }}>400 cruise missiles</div>
+      <div style={S.line}>One every 3 hours. $2.2 million each.</div>
+      <div style={S.sub}>$880 million in missiles. The U.S. produces 190 a year.</div>
     </> },
   { id: "casualties", color: "#f97316",
     ogTitle: `${DATA.kia} Americans killed. ${DATA.wia} wounded.`,
