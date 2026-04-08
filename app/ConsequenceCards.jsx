@@ -15,17 +15,17 @@ import { useState, useEffect, useRef } from "react";
    ═══════════════════════════════════════════════════════════════ */
 
 const DATA = {
-  lastUpdated: "April 6, 2026",
+  lastUpdated: "April 8, 2026",
   sources: "Pentagon, AAA, CSIS, YouGov, CNN/SSRS, The Intercept",
   warStart: "2026-02-28T00:00:00Z",
-  totalCost: 62_000_000_000,
+  totalCost: 65_000_000_000,
   dailyRate: 1_800_000_000,
   perMinute: 1_250_000,
-  perHousehold: 487,
+  perHousehold: 512,
   households: "127 million",
   gasBefore: 2.98,
-  gasCurrent: 4.12,
-  gasChange: 38,
+  gasCurrent: 4.14,
+  gasChange: 39,
   gasAnnualExtra: 1_430,
   kia: 15,
   wia: "520+",
